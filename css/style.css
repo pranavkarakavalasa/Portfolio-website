@@ -3,6 +3,7 @@
 /* imported from fonts.google.com */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 /* General Style */
 body{
     margin: 0;
@@ -21,7 +22,7 @@ body{
     box-sizing: border-box;
 }
 .section{
-    background-color: #133b5c;
+    background-color: #18191d;
     min-height: 100vh;
     display: block;
     padding: 0 30px;
@@ -41,13 +42,13 @@ body{
 /* Aside */
 .aside{
     width: 270px;
-    background-color: #1d2d50;
+    background-color: #0d0e0f;
     position: fixed;
     height: 100%;
     left: 0;
     right: 0;
     z-index: 10;
-    border-right:1px solid #a09cdd;
+    border-right:1px solid #f0a500;
     padding: 30px;
 }
 .aside .logo{
@@ -55,18 +56,21 @@ body{
 }
 .aside .logo a{
     font-size: 30px;
-    font-family: 'Rubik', sans-serif;
-    color: #fcdab7;
-    font-weight: 700;
+    font-family: 'Lato', sans-serif ;
+    font-style: italic;
+    color: #f0a500;
+    font-weight: 400;
     text-decoration: none;
     display: inline-block; 
     position: relative;
     padding: 0 10px;
     line-height: 50px;
     text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(201, 174, 115, 0.24);
 }
 .aside .logo span{
-    color: #fcdab7;
+    font-weight: 900;
+    color: #cf7500;
 }
 /* .aside .logo a::before{ 
     content: '';
@@ -87,14 +91,14 @@ body{
 .aside .nav-toggler{
     height: 40px;
     width: 45px;
-    border: 1px solid #fcdab7;
+    border: 1px solid #f0a500;
     cursor: pointer;
     position: fixed;
     left: 300px;
     top: 30px;
     z-index: 11;
     border-radius: 5px;
-    background-color: #fcdab7;
+    background-color: #f0a500;
     display: none;
     /* display: -ms-flexbox; */
     /* display: flex; */
@@ -136,11 +140,13 @@ body{
 .aside .nav li a{
     font-size: 16px;
     font-weight: 600;
-    color: #a09cdd;
+    font-family: 'Lato';
+    font-style: italic;
+    color: #9c6b00;
     text-decoration: none;
     line-height: 45px;
     display: block;
-    border-bottom:1px solid #a09cdd;
+    border-bottom:1px solid #f0a500;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     text-transform: capitalize;
@@ -155,7 +161,8 @@ body{
 /* Copyright */
 .aside .copyright{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fcdab7;
+    color: #f0a500;
+    font-style: italic;
     font-size: 11px;
 }
 /* Home */
@@ -166,7 +173,7 @@ body{
 }
 .home .intro{
     text-align: center;
-    color: #fcdab7;
+    color: #f0a500;
 }
 
 .home .intro img{
@@ -174,12 +181,12 @@ body{
     width: 200px;
     border-radius: 50%;
     display: inline-block;
-    border: 5px solid #fcdab7;
+    border: 5px solid #f0a500;
 }
 .home .intro h1{
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
-    color: #fcdab7;
+    color: #f0a500;
     font-weight: 700;
     margin: 20px 0 5px;
 }
@@ -188,7 +195,7 @@ body{
     font-weight: 500;
     margin: 0;
     line-height: 22px;
-    color: #e7c39e;
+    color: #c58907;
 }
 .home .intro .social-links{
     margin-top: 25px;
@@ -199,7 +206,7 @@ body{
     display: inline-block;
     line-height: 35px;
     text-align: center;
-    color: #1d2d50;
+    color: #18191d;
     margin: 0 4px;
     border-radius: 50%;
     text-decoration: none;
