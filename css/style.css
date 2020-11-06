@@ -188,4 +188,27 @@ body{
     font-weight: 500;
     margin: 0;
     line-height: 22px;
+    color: #e7c39e;
+}
+.home .intro .social-links{
+    margin-top: 25px;
+}
+.home .intro .social-links a{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    color: #1d2d50;
+    margin: 0 4px;
+    border-radius: 50%;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.home .intro .social-links a:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-box-shadow: 0 0 20px rgba(201, 174, 115, 0.24);
+    box-shadow: 0 0 20px rgba(201, 174, 115, 0.24);
 }
